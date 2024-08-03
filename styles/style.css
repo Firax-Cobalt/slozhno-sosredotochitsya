@@ -4,11 +4,17 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+
 .header {
   display: grid;
   padding: 10px;
   position: relative;
   background: url("../images/cover-image-dark.png") no-repeat center / cover;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--usual-color);
 }
 
 .border-decor::before,
