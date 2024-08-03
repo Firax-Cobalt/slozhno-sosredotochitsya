@@ -2,3 +2,11 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --font-color-theme-menu: #ff0070;
+  --font-color-main-title: #db00ff;
+  --font-color-accent: #000028;
+  --font-color-title-section: #ff0070;
+  --font-color-text: #f1b2ce;
+}
