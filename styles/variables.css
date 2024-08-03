@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 
-:root {
+:root {  
   --font-color-theme-menu: #ff0070;
   --font-color-rec: #ff0070;
   --font-color-main-title: #db00ff;
@@ -11,5 +11,5 @@
   --font-color-title-section: #ff0070;
   --font-color-text: #f1b2ce;
 
-  --background-color-circle-header: #ff0070;
+  --background-color-red: #FF0070;
 }
