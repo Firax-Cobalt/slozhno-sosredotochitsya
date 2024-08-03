@@ -3,3 +3,31 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {
+  position: relative;
+}
+
+.header__title {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+.header__rec-text {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 38px;
+  color: var(--font-color-rec);
+  text-transform: uppercase;
+}
+
+.header__rec-text::after {
+  content: "";
+  inline-size: 9px;
+  block-size: 9px;
+  position: absolute;
+  inset-block-start: 8px;
+  inset-inline-end: -20px;
+  background-color: var(--background-color-circle-header);
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--background-color-circle-header);
+}
