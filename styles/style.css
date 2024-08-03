@@ -5,7 +5,9 @@
 }
 
 .header {
+  display: grid;
   position: relative;
+  background: url("../images/cover-image-dark.png") no-repeat center / cover;
 }
 
 .header__title {
