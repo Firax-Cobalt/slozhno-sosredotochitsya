@@ -4,8 +4,8 @@
 */
 
 :root {
-  --color-accent: #ff0070;
-  --color-main-title: #db00ff;
-  --color-usual: #000028;
-  --color-text: #f1b2ce;
+  --accent-color: #ff0070;
+  --main-title-color: #db00ff;
+  --usual-color: #000028;
+  --text-color: #f1b2ce;
 }
