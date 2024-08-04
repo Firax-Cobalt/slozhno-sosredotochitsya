@@ -39,9 +39,33 @@
   inset-inline-start: 10px;
 }
 
+.header__theme-menu {
+  margin-bottom: 65px;
+  text-align: right;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 65px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  border-color: var(--accent-color);
+}
+
 .header__title {
+  margin-bottom: 65px;
   text-shadow: 4px 4px 0 var(--accent-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.8;
   color: var(--main-title-color);
 }
 
