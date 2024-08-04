@@ -12,6 +12,7 @@
   padding: 65px 10px 65px;
   position: relative;
   background: url("../images/cover-image-dark.png") no-repeat center / cover;
+  min-block-size: 100vh;
 }
 
 .title-decor {
@@ -109,4 +110,8 @@
   color: var(--accent-color);
   font-size: inherit;
   font-weight: 700;
+}
+
+.footer {
+  min-block-size: 100vh;
 }
