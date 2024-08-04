@@ -80,6 +80,9 @@
 .header__title {
   margin-bottom: 65px;
   text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.main-title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.8;
   color: var(--main-title-color);
@@ -114,4 +117,12 @@
 
 .footer {
   min-block-size: 100vh;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__title {
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
