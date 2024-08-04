@@ -10,3 +10,21 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root.theme_light {
+  --accent-color: rgb(255, 141, 203);
+  --accent-color-opacity: 50, 49, 45;
+  --main-title-color: rgb(255, 194, 230);
+  --usual-color: rgb(53, 52, 48);
+  --text-color: rgb(53, 52, 48);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: rgb(255, 141, 203);
+    --accent-color-opacity: 50, 49, 45;
+    --main-title-color: rgb(255, 194, 230);
+    --usual-color: rgb(53, 52, 48);
+    --text-color: rgb(53, 52, 48);
+  }
+}
