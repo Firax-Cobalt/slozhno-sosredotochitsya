@@ -4,22 +4,39 @@
   переключая тему
 */
 
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
-  background: url("../images/cover-image-light.png") no-repeat center / cover
-    fixed;
-}
-
 :root.theme_light {
   --accent-color: rgb(53, 52, 48);
   --accent-color-opacity: 53, 52, 48;
   --main-title-color: rgb(255, 194, 230);
   --usual-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
+}
+
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  background: url("../images/cover-image-light.png") no-repeat center / cover
+    fixed;
+
+  .header {
+    background: url("../images/cover-image-light.png") center / cover;
+  }
+
+  .border-decor::before {
+    border-block-start: 1px solid var(--accent-color);
+    border-inline-end: 1px solid var(--accent-color);
+  }
+  
+  .border-decor::after {
+    border-inline-start: 1px solid var(--accent-color);
+    border-block-end: 1px solid var(--accent-color);
+  }
+
+  .header__rec-text {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,5 +51,13 @@
   .page {
     background: url("../images/cover-image-light.png") no-repeat center / cover
       fixed;
+  }
+
+  .header {
+    background: url("../images/cover-image-light.png") center / cover;
+  }
+
+  .header__rec-text {
+    display: none;
   }
 }
