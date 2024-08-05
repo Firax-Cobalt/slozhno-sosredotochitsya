@@ -35,6 +35,15 @@
   border-block-end: 1px solid var(--accent-color);
 }
 
+.theme_dark .header__theme-menu-button {
+  color: var(--accent-color);
+}
+
+.theme_dark .header__theme-menu-button_active {
+  border-color: var(--accent-color);
+  pointer-events: none;
+}
+
 .theme_dark .main-title {
   color: var(--main-title-color);
 }
