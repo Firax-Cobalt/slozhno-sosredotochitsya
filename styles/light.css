@@ -10,7 +10,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  background: url("../images/cover-image-light.png") no-repeat center / cover fixed;
+  background: url("../images/cover-image-light.png") no-repeat center / cover
+    fixed;
 }
 
 :root.theme_light {
@@ -21,18 +22,17 @@
   --text-color: rgb(53, 52, 48);
 }
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: rgb(53, 52, 48);
-  --accent-color-opacity: 53, 52, 48;
-  --main-title-color: rgb(255, 194, 230);
-  --usual-color: rgb(53, 52, 48);
-  --text-color: rgb(53, 52, 48);
+    --accent-color-opacity: 53, 52, 48;
+    --main-title-color: rgb(255, 194, 230);
+    --usual-color: rgb(53, 52, 48);
+    --text-color: rgb(53, 52, 48);
   }
 
   .page {
-    background: url("../images/cover-image-light.png") no-repeat center / cover fixed;
+    background: url("../images/cover-image-light.png") no-repeat center / cover
+      fixed;
   }
 }

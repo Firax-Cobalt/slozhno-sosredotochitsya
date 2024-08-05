@@ -59,6 +59,7 @@
 }
 
 .header__theme-menu-button {
+  padding: 0 13px;
   background-color: transparent;
   border: 1px solid transparent;
   color: var(--accent-color);

@@ -21,6 +21,10 @@
   --text-color: rgb(241, 178, 206);
 }
 
+.header__theme-menu-button {
+  color: var(--accent-color);
+}
+
 .main-title {
   color: var(--main-title-color);
 }
