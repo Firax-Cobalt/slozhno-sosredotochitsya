@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
-  background: url("../images/cover-image.png") no-repeat center / cover fixed;
+  background: url("../images/cover-image-dark.png") no-repeat center / cover fixed;
 }
 
 
@@ -47,14 +47,15 @@
 }
 
 .header__theme-menu {
-  margin-bottom: 65px;
-  text-align: right;
+  margin-inline-start: auto;
+  display: grid;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  align-self: start;
 }
 
 .header__theme-menu-button {
@@ -78,7 +79,7 @@
 }
 
 .header__title {
-  margin-bottom: 65px;
+  align-self: center;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -86,6 +87,12 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.8;
   color: var(--main-title-color);
+}
+
+.header__text {
+  block-size: min-content;
+  align-self: end;
+  min-block-size: 117px;
 }
 
 .header__rec-text {
@@ -125,4 +132,54 @@
 
 .footer__title {
   text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+@media (768px <= width <= 1023px) {
+  .header__theme-menu-list {
+    align-self: end;
+  }
+
+  .header__title {
+  }
+
+  .main-title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__text {
+    min-inline-size: 364px;
+    max-inline-size: 364px;
+    min-block-size: 117px;
+    justify-self: end;
+  }
+}
+
+@media (width >= 1024px) {
+
+  .header {
+    padding: 20px 10px 20px;
+  }
+
+  .header__theme-menu {
+    margin-inline: 0;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .main-title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__text {
+    min-inline-size: 491px;
+    max-inline-size: 491px;
+    min-block-size: 71px;
+    justify-self: end;
+    align-self: start;
+  }
 }
