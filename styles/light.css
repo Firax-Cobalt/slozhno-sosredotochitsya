@@ -4,14 +4,6 @@
   переключая тему
 */
 
-:root.theme_light {
-  --accent-color: rgb(53, 52, 48);
-  --accent-color-opacity: 53, 52, 48;
-  --main-title-color: rgb(255, 194, 230);
-  --usual-color: rgb(53, 52, 48);
-  --text-color: rgb(53, 52, 48);
-}
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -19,24 +11,14 @@
   */
   background: url("../images/cover-image-light.png") no-repeat center / cover
     fixed;
+}
 
-  .header {
-    background: url("../images/cover-image-light.png") center / cover;
-  }
-
-  .border-decor::before {
-    border-block-start: 1px solid var(--accent-color);
-    border-inline-end: 1px solid var(--accent-color);
-  }
-  
-  .border-decor::after {
-    border-inline-start: 1px solid var(--accent-color);
-    border-block-end: 1px solid var(--accent-color);
-  }
-
-  .header__rec-text {
-    display: none;
-  }
+:root.theme_light {
+  --accent-color: rgb(53, 52, 48);
+  --accent-color-opacity: 53, 52, 48;
+  --main-title-color: rgb(255, 194, 230);
+  --usual-color: rgb(53, 52, 48);
+  --text-color: rgb(53, 52, 48);
 }
 
 @media (prefers-color-scheme: light) {
@@ -57,7 +39,43 @@
     background: url("../images/cover-image-light.png") center / cover;
   }
 
+  .border-decor::before {
+    border-block-start: 1px solid var(--accent-color);
+    border-inline-end: 1px solid var(--accent-color);
+  }
+
+  .border-decor::after {
+    border-inline-start: 1px solid var(--accent-color);
+    border-block-end: 1px solid var(--accent-color);
+  }
+
   .header__rec-text {
     display: none;
   }
+
+  .main-title {
+    color: var(--main-title-color);
+  }
+}
+
+.theme_light .header {
+  background: url("../images/cover-image-light.png") center / cover;
+}
+
+.theme_light .border-decor::before {
+  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--accent-color);
+}
+
+.theme_light .border-decor::after {
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
+}
+
+.theme_light .header__rec-text {
+  display: none;
+}
+
+.theme_light .main-title {
+  color: var(--main-title-color);
 }
