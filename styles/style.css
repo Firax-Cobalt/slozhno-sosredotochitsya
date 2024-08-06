@@ -151,6 +151,13 @@
   color: var(--text-color);
 }
 
+.text__link {
+  border-bottom: 1px solid currentColor;
+  line-height: 1;
+  text-decoration: none;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
 .decrease-concentrate,
 .better-concentrate,
 .better-concentrate__gallery {
