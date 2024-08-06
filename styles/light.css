@@ -9,6 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --accent-color: rgb(53, 52, 48);
+  --accent-color-opacity: 53, 52, 48;
+  --main-title-color: rgb(255, 194, 230);
+  --usual-color: rgb(53, 52, 48);
+  --text-color: rgb(53, 52, 48);
+
   background: url("../images/cover-image-light.png") no-repeat center / cover
     fixed;
 }
@@ -71,37 +78,37 @@
   }
 }
 
-.theme_light .header {
+.header {
   background: url("../images/cover-image-light.png") center / cover;
 }
 
-.theme_light .border-decor::before {
+.border-decor::before {
   border-block-start: 1px solid var(--accent-color);
   border-inline-end: 1px solid var(--accent-color);
 }
 
-.theme_light .border-decor::after {
+.border-decor::after {
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
 }
 
-.theme_light .header__theme-menu-button {
+.header__theme-menu-button {
   color: var(--accent-color);
 }
 
-.theme_light .header__theme-menu-button_active {
+.header__theme-menu-button_active {
   border-color: var(--accent-color);
   pointer-events: none;
 }
 
-.theme_light .header__title {
+.header__title {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.theme_light .main-title {
+.main-title {
   color: var(--main-title-color);
 }
 
-.theme_light .header__rec-text {
+.header__rec-text {
   display: none;
 }
