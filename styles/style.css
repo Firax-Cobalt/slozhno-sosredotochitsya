@@ -2,8 +2,6 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-
-  background: url("../images/cover-image-dark.png") no-repeat center / cover fixed;
 }
 
 

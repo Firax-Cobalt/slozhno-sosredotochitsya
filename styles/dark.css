@@ -9,8 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: rgb(255, 0, 112);
+  --accent-color-opacity: 225, 0, 112;
+  --main-title-color: rgb(219, 0, 255);
+  --usual-color: rgb(0, 0, 40);
+  --text-color: rgb(241, 178, 206);
 
-  background: url("../images/cover-image-dark.png") center / cover fixed;
 }
 
 :root.theme_dark {
@@ -21,33 +25,38 @@
   --text-color: rgb(241, 178, 206);
 }
 
-.theme_dark .header {
+.page {
+  background: url("../images/cover-image-dark.png") no-repeat center / cover
+  fixed;
+}
+
+.header {
   background: url(../images/cover-image-dark.png) no-repeat center / cover;
 }
 
-.theme_dark .border-decor::before {
+.border-decor::before {
   border-block-start: 1px solid var(--accent-color);
   border-inline-end: 1px solid var(--accent-color);
 }
 
-.theme_dark .border-decor::after {
+.border-decor::after {
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
 }
 
-.theme_dark .header__theme-menu-button {
+.header__theme-menu-button {
   color: var(--accent-color);
 }
 
-.theme_dark .header__theme-menu-button_active {
+.header__theme-menu-button_active {
   border-color: var(--accent-color);
   pointer-events: none;
 }
 
-.theme_dark .header__title {
+.header__title {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.theme_dark .main-title {
+.main-title {
   color: var(--main-title-color);
 }
