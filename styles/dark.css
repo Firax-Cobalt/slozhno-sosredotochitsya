@@ -14,7 +14,7 @@
   --main-title-color: rgb(219, 0, 255);
   --usual-color: rgb(0, 0, 40);
   --text-color: rgb(241, 178, 206);
-
+  --background-image: url("../images/cover-image-dark.png");
 }
 
 :root.theme_dark {
@@ -23,15 +23,16 @@
   --main-title-color: rgb(219, 0, 255);
   --usual-color: rgb(0, 0, 40);
   --text-color: rgb(241, 178, 206);
+  --background-image: url("../images/cover-image-dark.png");
 }
 
 .page {
-  background: url("../images/cover-image-dark.png") no-repeat center / cover
+  background: var(--background-image) no-repeat center / cover
   fixed;
 }
 
 .header {
-  background: url(../images/cover-image-dark.png) no-repeat center / cover;
+  background: var(--background-image) no-repeat center / cover;
 }
 
 .border-decor::before {

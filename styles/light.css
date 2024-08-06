@@ -15,6 +15,7 @@
   --main-title-color: rgb(255, 194, 230);
   --usual-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
+  --background-image: url("../images/cover-image-light.png");
 }
 
 :root.theme_light {
@@ -23,6 +24,7 @@
   --main-title-color: rgb(255, 194, 230);
   --usual-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
+  --background-image: url("../images/cover-image-light.png");
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,15 +34,16 @@
     --main-title-color: rgb(255, 194, 230);
     --usual-color: rgb(53, 52, 48);
     --text-color: rgb(53, 52, 48);
+    --background-image: url("../images/cover-image-light.png");
   }
 
   .page {
-    background: url("../images/cover-image-light.png") no-repeat center / cover
+    background: var(--background-image)  no-repeat center / cover
       fixed;
   }
 
   .header {
-    background: url("../images/cover-image-light.png") center / cover;
+    background: var(--background-image) center / cover;
   }
   
   .border-decor::before {
@@ -76,12 +79,12 @@
 }
 
 .page {
-  background: url("../images/cover-image-light.png") no-repeat center / cover
+  background: var(--background-image) no-repeat center / cover
   fixed;
 }
 
 .header {
-  background: url("../images/cover-image-light.png") center / cover;
+  background: var(--background-image) center / cover;
 }
 
 .border-decor::before {
