@@ -24,6 +24,10 @@
   font-weight: 700;
 }
 
+.title-decor_normal {
+  font-weight: normal;
+}
+
 .border-decor::before,
 .border-decor::after {
   content: "";
@@ -116,11 +120,23 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
+.concentrate__title {
+  width: 90%;
+}
 
 .title {
   color: var(--accent-color);
   font-size: inherit;
   font-weight: 700;
+}
+
+.subtitle {
+  color: var(--usual-color);
+  font-size: inherit;
+}
+
+.text {
+  color: var(--text-color);
 }
 
 .footer {

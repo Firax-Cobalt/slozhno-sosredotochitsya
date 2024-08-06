@@ -38,36 +38,36 @@
   .header {
     background: url("../images/cover-image-light.png") center / cover;
   }
-
+  
   .border-decor::before {
     border-block-start: 1px solid var(--accent-color);
     border-inline-end: 1px solid var(--accent-color);
   }
-
+  
   .border-decor::after {
     border-inline-start: 1px solid var(--accent-color);
     border-block-end: 1px solid var(--accent-color);
   }
-
-  .theme_light .header__theme-menu-button {
+  
+  .header__theme-menu-button {
     color: var(--accent-color);
   }
-
-  .theme_light .header__theme-menu-button_active {
+  
+  .header__theme-menu-button_active {
     border-color: var(--accent-color);
     pointer-events: none;
   }
-
-  .theme_light .header__title {
+  
+  .header__title {
     text-shadow: 4px 4px 0 var(--accent-color);
   }
-
-  .header__rec-text {
-    display: none;
-  }
-
+  
   .main-title {
     color: var(--main-title-color);
+  }
+  
+  .header__rec-text {
+    display: none;
   }
 }
 
