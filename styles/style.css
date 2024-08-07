@@ -266,6 +266,10 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .text__link {
+    border-bottom: none;
+  }
+
   .header__text {
     min-inline-size: 364px;
     max-inline-size: 364px;
