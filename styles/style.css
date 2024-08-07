@@ -11,7 +11,8 @@
   padding: 65px 0 65px;
   position: relative;
   background: var(--background-image) no-repeat center / cover;
-  min-block-size: 100vh;
+  /* min-block-size: 100vh; */
+  block-size: 668px;
 }
 
 .title-decor {
@@ -52,6 +53,7 @@
 .header__theme-menu {
   margin-inline-start: auto;
   display: grid;
+  padding-top: 10px;
 }
 
 .header__theme-menu-list {
@@ -88,6 +90,7 @@
 }
 
 .main-title {
+  padding-top: 12px;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.8;
   color: var(--main-title-color);
@@ -245,8 +248,19 @@
     padding: 0 20px;
   }
 
+  .header {
+    block-size: 1024px;
+  }
+
+  .header__theme-menu {
+    padding: 0;
+  }
+
   .header__theme-menu-list {
-    align-self: end;
+    align-self: center;
+    row-gap: 12px;
+    margin-bottom: 7px;
+    padding-top: 66px;
   }
 
   .border-decor::before,
@@ -273,7 +287,10 @@
 
   .header__title {
     position: relative;
-    inset-inline-start: -20px;
+    inset-inline-start: -22px;
+    align-self: start;
+    margin-bottom: 42px;
+    padding-top: 110px;
   }
 
   .main-title {
@@ -301,6 +318,7 @@
     max-inline-size: 364px;
     min-block-size: 117px;
     justify-self: end;
+    align-self: start;
   }
 
   .header__rec-text {
@@ -367,10 +385,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "sunset sunset ice-cream"
-    "tape books ice-cream"
-    "tape street street";
+    grid-template-areas:
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
     gap: 20px;
   }
 
@@ -406,6 +424,7 @@
   }
 
   .header {
+    block-size: 768px;
     padding: 20px 0 20px;
   }
 
@@ -449,7 +468,7 @@
 
   .text__link_concentrate {
     text-shadow: 2px 2px 0 var(--text-link-shadow);
-}
+  }
 
   .text__link:hover {
     border-bottom: 1px solid currentColor;
@@ -546,10 +565,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "sunset sunset ice-cream"
-    "tape books ice-cream"
-    "tape street street";
+    grid-template-areas:
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
     gap: 20px;
   }
 
