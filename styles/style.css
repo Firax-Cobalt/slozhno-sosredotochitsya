@@ -166,6 +166,10 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
+.text__link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+
 .decrease-concentrate,
 .better-concentrate,
 .better-concentrate__gallery {
@@ -268,6 +272,10 @@
 
   .text__link {
     border-bottom: none;
+  }
+
+  .text__link:hover {
+    border-bottom: 1px solid currentColor;
   }
 
   .header__text {
@@ -412,6 +420,14 @@
 
   .main-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .text__link {
+    border-bottom: none;
+  }
+
+  .text__link:hover {
+    border-bottom: 1px solid currentColor;
   }
 
   .header__text {
