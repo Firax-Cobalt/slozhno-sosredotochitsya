@@ -3,8 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   padding: 0 10px;
-  background: var(--background-image) no-repeat center / cover
-    fixed;
+  background: var(--background-image) no-repeat center / cover fixed;
 }
 
 .header {
@@ -163,6 +162,11 @@
   border-bottom: 1px solid currentColor;
   line-height: 1;
   text-decoration: none;
+  text-shadow: 2px 1px 0 var(--accent-color);
+}
+
+.text__link_better-concentrate {
+  border-bottom: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -240,26 +244,26 @@
   }
 
   .border-decor::before,
-.border-decor::after {
-  content: "";
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
-}
+  .border-decor::after {
+    content: "";
+    inline-size: 25px;
+    block-size: 25px;
+    position: absolute;
+  }
 
-.border-decor::before {
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
-  inset-block-start: 20px;
-  inset-inline-end: 0;
-}
+  .border-decor::before {
+    border-block-start: 1px solid var(--accent-color);
+    border-inline-end: 1px solid var(--accent-color);
+    inset-block-start: 20px;
+    inset-inline-end: 0;
+  }
 
-.border-decor::after {
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
-  inset-block-end: 20px;
-  inset-inline-start: 0;
-}
+  .border-decor::after {
+    border-inline-start: 1px solid var(--accent-color);
+    border-block-end: 1px solid var(--accent-color);
+    inset-block-end: 20px;
+    inset-inline-start: 0;
+  }
 
   .header__title {
     position: relative;
@@ -272,6 +276,14 @@
 
   .text__link {
     border-bottom: none;
+  }
+
+  .text__link_concentrate {
+    text-shadow: 3px 2px 0 var(--accent-color);
+  }
+
+  .text__link_better-concentrate {
+    text-shadow: 2px 1px 0 var(--accent-color);
   }
 
   .text__link:hover {
@@ -289,7 +301,7 @@
     inset-block-start: 20px;
     inset-inline-end: 28px;
   }
-  
+
   .header__rec-text::after {
     content: "";
     position: absolute;
@@ -405,7 +417,7 @@
     inset-block-start: 20px;
     inset-inline-end: 0;
   }
-  
+
   .border-decor::after {
     border-inline-start: 1px solid var(--accent-color);
     border-block-end: 1px solid var(--accent-color);
@@ -426,6 +438,10 @@
     border-bottom: none;
   }
 
+  .text__link_concentrate {
+    text-shadow: 2px 2px 0 var(--accent-color);
+}
+
   .text__link:hover {
     border-bottom: 1px solid currentColor;
   }
@@ -442,7 +458,7 @@
     inset-block-start: 20px;
     inset-inline-end: 28px;
   }
-  
+
   .header__rec-text::after {
     content: "";
     position: absolute;
