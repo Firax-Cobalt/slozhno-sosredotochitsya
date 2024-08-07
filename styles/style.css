@@ -85,7 +85,7 @@
 
 .header__title {
   align-self: center;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--main-title-color-shadow);
 }
 
 .main-title {
@@ -227,7 +227,7 @@
 }
 
 .footer__title {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--main-title-color-shadow);
 }
 
 @media (768px <= width <= 1023px) {

@@ -13,6 +13,7 @@
   --accent-color: rgb(53, 52, 48);
   --accent-color-opacity: 53, 52, 48;
   --main-title-color: rgb(255, 194, 230);
+  --main-title-color-shadow: rgb(255, 0, 112);
   --title-decor-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
   --title-decor-background: rgb(255, 141, 203);
@@ -64,4 +65,14 @@
 
 .theme_light .header__rec-text {
   display: none;
+}
+
+@media (width <= 1023px) {
+  .page.theme_light {
+    --main-title-color-shadow: rgb(255, 141, 203);
+  }
+
+  .header__title {
+    text-shadow: 4px 4px 0 var(--main-title-color-shadow);
+  }
 }
