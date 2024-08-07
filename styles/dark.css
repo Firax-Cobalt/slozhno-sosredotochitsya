@@ -14,6 +14,7 @@
   --main-title-color: rgb(219, 0, 255);
   --usual-color: rgb(0, 0, 40);
   --text-color: rgb(241, 178, 206);
+  --title-decor-background: rgb(255, 0, 112);
   --background-image: url("../images/cover-image-dark.png");
 }
 
@@ -23,41 +24,6 @@
   --main-title-color: rgb(219, 0, 255);
   --usual-color: rgb(0, 0, 40);
   --text-color: rgb(241, 178, 206);
+  --title-decor-background: rgb(255, 0, 112);
   --background-image: url("../images/cover-image-dark.png");
-}
-
-.page {
-  background: var(--background-image) no-repeat center / cover
-  fixed;
-}
-
-.header {
-  background: var(--background-image) no-repeat center / cover;
-}
-
-.border-decor::before {
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
-}
-
-.border-decor::after {
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
-}
-
-.header__theme-menu-button {
-  color: var(--accent-color);
-}
-
-.header__theme-menu-button_active {
-  border-color: var(--accent-color);
-  pointer-events: none;
-}
-
-.header__title {
-  text-shadow: 4px 4px 0 var(--accent-color);
-}
-
-.main-title {
-  color: var(--main-title-color);
 }

@@ -14,7 +14,7 @@
 }
 
 .title-decor {
-  background-color: var(--accent-color);
+  background-color: var(--title-decor-background);
   color: var(--usual-color);
 }
 
@@ -155,7 +155,7 @@
   border-bottom: 1px solid currentColor;
   line-height: 1;
   text-decoration: none;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .decrease-concentrate,
