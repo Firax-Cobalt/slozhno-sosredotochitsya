@@ -16,6 +16,7 @@
   --title-decor-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
   --title-decor-background: rgb(255, 141, 203);
+  --text-link-shadow: rgb(255, 141, 203);
   --background-image: url("../images/cover-image-light.png");
 }
 
@@ -26,6 +27,7 @@
   --title-decor-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
   --title-decor-background: rgb(255, 141, 203);
+  --text-link-shadow: rgb(255, 141, 203);
   --background-image: url("../images/cover-image-light.png");
 }
 
@@ -37,6 +39,7 @@
     --title-decor-color: rgb(53, 52, 48);
     --text-color: rgb(53, 52, 48);
     --title-decor-background: rgb(255, 141, 203);
+    --text-link-shadow: rgb(255, 141, 203);
     --background-image: url("../images/cover-image-light.png");
   }
 }
