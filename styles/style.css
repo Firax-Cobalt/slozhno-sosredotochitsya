@@ -162,12 +162,12 @@
   border-bottom: 1px solid currentColor;
   line-height: 1;
   text-decoration: none;
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 1px 0 var(--text-link-shadow);
 }
 
 .text__link_better-concentrate {
   border-bottom: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--text-link-shadow);
 }
 
 .text__link:focus-visible {
@@ -279,11 +279,11 @@
   }
 
   .text__link_concentrate {
-    text-shadow: 3px 2px 0 var(--accent-color);
+    text-shadow: 3px 2px 0 var(--text-link-shadow);
   }
 
   .text__link_better-concentrate {
-    text-shadow: 2px 1px 0 var(--accent-color);
+    text-shadow: 2px 1px 0 var(--text-link-shadow);
   }
 
   .text__link:hover {
@@ -439,7 +439,7 @@
   }
 
   .text__link_concentrate {
-    text-shadow: 2px 2px 0 var(--accent-color);
+    text-shadow: 2px 2px 0 var(--text-link-shadow);
 }
 
   .text__link:hover {

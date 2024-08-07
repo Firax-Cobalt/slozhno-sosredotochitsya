@@ -42,11 +42,11 @@
 }
 
 .text__link {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 1px 0 var(--text-link-shadow);
 }
 
 .text__link_better-concentrate {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--text-link-shadow);
 }
 
 @media (768px <= width <= 1023px) {
@@ -55,11 +55,11 @@
   }
   
   .text__link_concentrate {
-    text-shadow: 3px 2px 0 var(--accent-color);
+    text-shadow: 3px 2px 0 var(--text-link-shadow);
   }
 
   .text__link_better-concentrate {
-    text-shadow: 2px 1px 0 var(--accent-color);
+    text-shadow: 2px 1px 0 var(--text-link-shadow);
   }
 }
 
@@ -69,6 +69,6 @@
   }
 
   .text__link_concentrate {
-    text-shadow: 2px 2px 0 var(--accent-color);
+    text-shadow: 2px 2px 0 var(--text-link-shadow);
 }
 }
