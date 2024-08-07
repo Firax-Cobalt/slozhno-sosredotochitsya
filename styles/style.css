@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   padding: 0 10px;
-  background: url("../images/cover-image-dark.png") no-repeat center / cover
+  background: var(--background-image) no-repeat center / cover
     fixed;
 }
 
@@ -11,7 +11,7 @@
   display: grid;
   padding: 65px 0 65px;
   position: relative;
-  background: url("../images/cover-image-dark.png") no-repeat center / cover;
+  background: var(--background-image) no-repeat center / cover;
   min-block-size: 100vh;
 }
 

@@ -29,3 +29,12 @@
   --text-link-shadow: rgb(255, 0, 112);
   --background-image: url("../images/cover-image-dark.png");
 }
+
+.page {
+  background: var(--background-image) no-repeat center / cover
+  fixed;
+}
+
+.header {
+  background: var(--background-image) no-repeat center / cover;
+}

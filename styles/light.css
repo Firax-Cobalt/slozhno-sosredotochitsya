@@ -42,4 +42,22 @@
     --text-link-shadow: rgb(255, 141, 203);
     --background-image: url("../images/cover-image-light.png");
   }
+
+  .page {
+    background: var(--background-image) no-repeat center / cover
+    fixed;
+  }
+
+  .header {
+    background: var(--background-image) no-repeat center / cover;
+  }
+}
+
+.page {
+  background: var(--background-image) no-repeat center / cover
+  fixed;
+}
+
+.header {
+  background: var(--background-image) no-repeat center / cover;
 }
