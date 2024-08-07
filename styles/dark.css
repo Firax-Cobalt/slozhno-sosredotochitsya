@@ -40,3 +40,35 @@
 .header {
   background: var(--background-image) no-repeat center / cover;
 }
+
+.text__link {
+  text-shadow: 2px 1px 0 var(--accent-color);
+}
+
+.text__link_better-concentrate {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+@media (768px <= width <= 1023px) {
+  .text__link {
+    border-bottom: none;
+  }
+  
+  .text__link_concentrate {
+    text-shadow: 3px 2px 0 var(--accent-color);
+  }
+
+  .text__link_better-concentrate {
+    text-shadow: 2px 1px 0 var(--accent-color);
+  }
+}
+
+@media (width >= 1024px) {
+  .text__link {
+    border-bottom: none;
+  }
+
+  .text__link_concentrate {
+    text-shadow: 2px 2px 0 var(--accent-color);
+}
+}
