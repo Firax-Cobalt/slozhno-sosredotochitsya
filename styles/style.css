@@ -31,8 +31,8 @@
 .border-decor::before,
 .border-decor::after {
   content: "";
-  width: 25px;
-  height: 25px;
+  inline-size: 25px;
+  block-size: 25px;
   position: absolute;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .concentrate__title {
-  width: 90%;
+  inline-size: 90%;
 }
 
 .concentrate__text-wrapper {
@@ -253,7 +253,7 @@
   } 
 
   .decrease-concentrate__title {
-  width: 236px;
+  inline-size: 236px;
   }
 
   .better-concentrate {
@@ -331,7 +331,7 @@
   }
 
   .concentrate__title {
-    width: 100%;
+    inline-size: 100%;
   }
 
   .concentrate__text-wrapper {
