@@ -13,7 +13,7 @@
   --accent-color: rgb(53, 52, 48);
   --accent-color-opacity: 53, 52, 48;
   --main-title-color: rgb(255, 194, 230);
-  --usual-color: rgb(53, 52, 48);
+  --title-decor-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
   --title-decor-background: rgb(255, 141, 203);
   --background-image: url("../images/cover-image-light.png");
@@ -23,7 +23,7 @@
   --accent-color: rgb(53, 52, 48);
   --accent-color-opacity: 53, 52, 48;
   --main-title-color: rgb(255, 194, 230);
-  --usual-color: rgb(53, 52, 48);
+  --title-decor-color: rgb(53, 52, 48);
   --text-color: rgb(53, 52, 48);
   --title-decor-background: rgb(255, 141, 203);
   --background-image: url("../images/cover-image-light.png");
@@ -34,7 +34,7 @@
     --accent-color: rgb(53, 52, 48);
     --accent-color-opacity: 53, 52, 48;
     --main-title-color: rgb(255, 194, 230);
-    --usual-color: rgb(53, 52, 48);
+    --title-decor-color: rgb(53, 52, 48);
     --text-color: rgb(53, 52, 48);
     --title-decor-background: rgb(255, 141, 203);
     --background-image: url("../images/cover-image-light.png");

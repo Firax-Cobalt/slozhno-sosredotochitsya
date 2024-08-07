@@ -17,7 +17,7 @@
 
 .title-decor {
   background-color: var(--title-decor-background);
-  color: var(--usual-color);
+  color: var(--title-decor-color);
 }
 
 .title-decor_bold {
@@ -151,7 +151,7 @@
 }
 
 .subtitle {
-  color: var(--usual-color);
+  color: var(--title-decor-color);
   font-size: inherit;
 }
 
