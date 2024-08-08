@@ -20,7 +20,7 @@
   --background-image: url("../images/cover-image-dark.png");
 }
 
-:root.theme_dark {
+:root {
   --accent-color: rgb(255, 0, 112);
   --accent-color-opacity: 225, 0, 112;
   --main-title-color: rgb(219, 0, 255);

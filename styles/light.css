@@ -44,7 +44,7 @@
     --background-image: url("../images/cover-image-light.png");
   }
 
-  .page {
+  /* .page {
     background: var(--background-image) no-repeat center / cover
     fixed;
   }
@@ -135,4 +135,4 @@
   .theme_light .text__link_better-concentrate {
     text-shadow: 3px 2px 0 var(--text-link-shadow);
   }
-}
+} */
