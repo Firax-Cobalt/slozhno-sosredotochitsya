@@ -44,5 +44,6 @@
     --title-decor-background: rgb(255, 141, 203);
     --text-link-shadow: rgb(255, 141, 203);
     --background-image: url("../images/cover-image-light.png");
+    --page-background-color: rgb(255, 241, 247);
   }
 }
