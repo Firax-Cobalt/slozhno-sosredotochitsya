@@ -3,6 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   padding: 0 10px;
+  background-color: var(--page-background-color);
   background: var(--background-image) no-repeat center / cover fixed;
 }
 
@@ -11,8 +12,7 @@
   padding: 65px 0 65px;
   position: relative;
   background: var(--background-image) no-repeat center / cover;
-  /* min-block-size: 100vh; */
-  block-size: 668px;
+  min-block-size: 100vh;
 }
 
 .title-decor {
@@ -108,6 +108,10 @@
   inset-inline-end: 28px;
   color: var(--accent-color);
   text-transform: uppercase;
+}
+
+.theme_light .header__rec-text {
+  display: none;
 }
 
 .header__rec-text::after {
@@ -232,9 +236,7 @@
 }
 
 .footer {
-  /* min-block-size: 100vh;
-   */
-  block-size: 668px;
+  min-block-size: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -246,13 +248,45 @@
   text-shadow: 2px 2px 0 var(--main-title-color-shadow);
 }
 
-@media (768px <= width <= 1023px) {
+@media (prefers-color-scheme: light) {
   .page {
-    padding: 0 20px;
+    background-color: var(--page-background-color);
+    background: var(--background-image) no-repeat center / cover
+    fixed;
   }
 
   .header {
-    block-size: 1024px;
+    background: var(--background-image) no-repeat center / cover;
+  }
+
+  @media (width <= 1023px) {
+    .header__title,
+    .footer__title {
+      --main-title-color-shadow: rgb(255, 141, 203);
+      text-shadow: 4px 4px 0 var(--main-title-color-shadow);
+    }
+  }
+
+  @media(768px <= width <= 1023px) {
+    .text__link_concentrate {
+      text-shadow: 3px 2px 0 var(--text-link-shadow);
+    }
+  
+    .text__link_better-concentrate {
+      text-shadow: 2px 2px 0 var(--text-link-shadow);
+    }
+  }
+  
+  @media(width >= 1024px) {
+    .text__link_better-concentrate {
+      text-shadow: 3px 2px 0 var(--text-link-shadow);
+    }
+  }
+}
+
+@media (768px <= width <= 1023px) {
+  .page {
+    padding: 0 20px;
   }
 
   .header__theme-menu {
@@ -418,10 +452,6 @@
   .gallery-images__image_street {
     grid-area: street;
   }
-
-  .footer {
-    block-size: 1024px;
-  }
 }
 
 @media (width >= 1024px) {
@@ -431,7 +461,6 @@
 
   .header {
     padding: 20px 0 20px;
-    block-size: 768px;
   }
 
   .header__theme-menu {
@@ -603,9 +632,5 @@
 
   .gallery-images__image_street {
     grid-area: street;
-  }
-
-  .footer {
-    block-size: 768px;
   }
 }
