@@ -110,6 +110,10 @@
   text-transform: uppercase;
 }
 
+.theme_dark .header__rec-text {
+  display: block;
+}
+
 .theme_light .header__rec-text {
   display: none;
 }
