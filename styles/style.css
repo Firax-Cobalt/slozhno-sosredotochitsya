@@ -248,7 +248,8 @@
 }
 
 .footer {
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 667px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -478,6 +479,10 @@
   .gallery-images__image_street {
     grid-area: street;
   }
+
+  .footer {
+    min-block-size: 1024px;
+  }
 }
 
 @media (width <= 1023px) {
@@ -673,5 +678,9 @@
 
   .gallery-images__image_street {
     grid-area: street;
+  }
+
+  .footer {
+    min-block-size: 768px;
   }
 }
