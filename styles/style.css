@@ -383,7 +383,6 @@
   .header__text {
     min-inline-size: 364px;
     max-inline-size: 364px;
-    min-block-size: 117px;
     justify-self: end;
     align-self: start;
   }
@@ -562,7 +561,6 @@
   .header__text {
     min-inline-size: 491px;
     max-inline-size: 491px;
-    min-block-size: 71px;
     justify-self: end;
     align-self: start;
   }
