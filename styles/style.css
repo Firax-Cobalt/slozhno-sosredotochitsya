@@ -9,7 +9,8 @@
 
 .header {
   display: grid;
-  padding: 65px 0 65px;
+  grid-template-rows: 1fr min-content 1fr;
+  padding: 74px 0 65px;
   position: relative;
   background: var(--background-image) no-repeat center / cover;
   block-size: 100vh;
@@ -54,7 +55,6 @@
 .header__theme-menu {
   margin-inline-start: auto;
   display: grid;
-  padding-block-start: 10px;
 }
 
 .header__theme-menu-list {
@@ -65,7 +65,7 @@
 }
 
 .header__theme-menu-button {
-  padding: 0 13px;
+  padding: 0 13px 1px;
   background-color: transparent;
   border: 1px solid transparent;
   color: var(--accent-color);
@@ -92,7 +92,6 @@
 }
 
 .main-title {
-  padding-block-start: 12px;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.8;
   color: var(--main-title-color);
@@ -315,7 +314,10 @@
   }
 
   .header {
+    padding-block-start: 192px;
+    block-size: 100vh;
     min-block-size: 1229px;
+    grid-template-rows: min-content 1fr 1fr;
   }
 
   .header__theme-menu {
@@ -324,9 +326,7 @@
 
   .header__theme-menu-list {
     align-self: center;
-    row-gap: 12px;
-    margin-block-end: 7px;
-    padding-block-start: 66px;
+    row-gap: 10px;
   }
 
   .border-decor::before,
@@ -352,11 +352,8 @@
   }
 
   .header__title {
-    position: relative;
-    inset-inline-start: -22px;
-    align-self: start;
-    margin-block-end: 42px;
-    padding-block-start: 110px;
+    align-self: center;
+    margin-inline-start: -22px;
   }
 
   .main-title {
@@ -498,6 +495,7 @@
 
   .header {
     padding: 20px 0 20px;
+    block-size: 100vh;
     min-block-size: 768px;
   }
 
@@ -528,9 +526,7 @@
   }
 
   .header__title {
-    position: relative;
-    inset-inline-start: -19px;
-    padding-block-start: 162px;
+    margin-inline-start: -19px;
     align-self: start;
   }
 
@@ -562,7 +558,7 @@
     min-inline-size: 491px;
     max-inline-size: 491px;
     justify-self: end;
-    align-self: start;
+    align-self: center;
   }
 
   .header__rec-text {
