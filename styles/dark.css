@@ -22,3 +22,8 @@
   --page-background-color: rgb(0, 0, 40);
   --border-bottom: 1px solid currentColor;
 }
+
+.header__rec-text {
+  display: block;
+}
+
