@@ -3,8 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   padding: 0 10px;
-  background-color: var(--page-background-color);
   background: var(--background-image) no-repeat center / cover fixed;
+  background-color: var(--page-background-color);
 }
 
 .header {
@@ -12,7 +12,6 @@
   grid-template-rows: 1fr min-content 1fr;
   padding: 74px 0 65px;
   position: relative;
-  background: var(--background-image) no-repeat center / cover;
   block-size: 100vh;
   min-block-size: 668px;
 }
@@ -263,12 +262,8 @@
 
 @media (prefers-color-scheme: light) {
   .page {
-    background-color: var(--page-background-color);
     background: var(--background-image) no-repeat center / cover fixed;
-  }
-
-  .header {
-    background: var(--background-image) no-repeat center / cover;
+    background-color: var(--page-background-color);
   }
 
   .header__rec-text {
