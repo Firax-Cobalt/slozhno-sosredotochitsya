@@ -22,18 +22,6 @@
   --page-background-color: rgb(255, 241, 247);
 }
 
-:root.theme_light {
-  --accent-color: rgb(53, 52, 48);
-  --accent-color-opacity: 53, 52, 48;
-  --main-title-color: rgb(255, 194, 230);
-  --title-decor-color: rgb(53, 52, 48);
-  --text-color: rgb(53, 52, 48);
-  --title-decor-background: rgb(255, 141, 203);
-  --text-link-shadow: rgb(255, 141, 203);
-  --background-image: url("../images/cover-image-light.png");
-  --page-background-color: rgb(255, 241, 247);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: rgb(53, 52, 48);
