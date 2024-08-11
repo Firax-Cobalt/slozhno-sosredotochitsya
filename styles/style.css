@@ -456,10 +456,6 @@
     text-shadow: 2px 3px 0 var(--text-link-shadow);
   }
 
-  .theme_light .text__link_better-concentrate {
-    text-shadow: 2px 2px 0 var(--text-link-shadow);
-  }
-
   .text__link:hover {
     border-bottom: 1px solid currentColor;
   }
