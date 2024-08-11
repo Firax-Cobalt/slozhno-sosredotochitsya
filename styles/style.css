@@ -108,6 +108,10 @@
   text-transform: uppercase;
 }
 
+.header__rec-text {
+  display: var(--display-rec);
+}
+
 .header__rec-text::after {
   content: "";
   inline-size: 9px;

@@ -22,6 +22,7 @@
   --background-image: url("../images/cover-image-light.png");
   --page-background-color: rgb(255, 241, 247);
   --border-bottom: none;
+  --display-rec: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -38,6 +39,7 @@
     --background-image: url("../images/cover-image-light.png");
     --page-background-color: rgb(255, 241, 247);
     --border-bottom: none;
+    --display-rec: none;
   }
 
   .page {
@@ -81,8 +83,4 @@
       text-shadow: 2px 2px 0 var(--text-link-shadow);
     }
   }
-}
-
-.header__rec-text {
-  display: none;
 }
