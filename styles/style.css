@@ -314,15 +314,6 @@
     border-bottom: none;
   }
 
-  .text__link_concentrate {
-    border-bottom: none;
-    text-shadow: 3px 2px 0 var(--text-link-shadow);
-  }
-
-  .text__link_better-concentrate {
-    text-shadow: 2px 1px 0 var(--text-link-shadow);
-  }
-
   .text__link:hover {
     border-bottom: 1px solid currentColor;
   }
@@ -435,10 +426,9 @@
 }
 
 @media (width <= 1023px) {
-  .theme_light .header__title,
-  .theme_light .footer__title {
-    --main-title-color-shadow: rgb(255, 141, 203);
-    text-shadow: 4px 4px 0 var(--main-title-color-shadow);
+  .header__title,
+  .footer__title {
+    text-shadow: 4px 4px 0 var(--main-title-color-shadow-light);
   }
 }
 
