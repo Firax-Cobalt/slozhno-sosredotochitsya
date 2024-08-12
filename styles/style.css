@@ -12,7 +12,7 @@
   grid-template-rows: 1fr min-content 1fr;
   padding: 74px 0 65px;
   position: relative;
-  /* block-size: 100vh; */
+  block-size: 100vh;
   min-block-size: 668px;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .footer {
-  /* block-size: 100vh; */
+  block-size: 100vh;
   min-block-size: 667px;
   position: relative;
   display: flex;
